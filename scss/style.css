@@ -1,0 +1,581 @@
+* {
+  font-family: "roboto";
+}
+
+.header-section .container-fluid {
+  padding: 0;
+}
+.header-section .container-fluid .heading-contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 0px 50px;
+  border-bottom: 1px solid;
+}
+.header-section .container-fluid .heading-contacts .contact-details {
+  display: flex;
+  width: 80%;
+}
+.header-section .container-fluid .heading-contacts .contact-details p {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  margin-right: 12px;
+  margin-left: 12px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.header-section .container-fluid .heading-contacts .contact-details p:nth-child(3) {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.header-section .container-fluid .heading-contacts .contact-details p:nth-child(4) {
+  border-right: none;
+  padding-right: 25px;
+}
+.header-section .container-fluid .heading-contacts .contact-socials {
+  width: 25%;
+  text-align: end;
+  letter-spacing: 18px;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(1) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(1):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(2) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(2):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(3) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(3):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(4) {
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-contacts .contact-socials :nth-child(4):hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.header-section .container-fluid .navbar-expand-lg {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid {
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+  border-bottom: 1px solid black;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .nav-details .mb-lg-0 {
+  gap: 20px;
+  padding-right: 20px;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .d-flex .btn-dark {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.header-section .container-fluid .navbar-expand-lg .container-fluid .nav-menulist .d-flex .btn-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero_section .container-fluid .hero-content {
+  display: flex;
+}
+.hero_section .container-fluid .hero-content .hero-info {
+  width: 50%;
+  margin: 400px 100px 400px 100px;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-texts h1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-texts p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-btn {
+  display: flex;
+  gap: 20px;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-btn .btn-one {
+  background-color: #000;
+  color: white;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-btn .btn-one:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-btn .btn-two {
+  border: 1px solid black;
+}
+.hero_section .container-fluid .hero-content .hero-info .hero-info-btn .btn-two:hover {
+  background-color: black;
+  color: white;
+}
+.hero_section .container-fluid .hero-content .hero-img {
+  width: 50%;
+}
+.hero_section .container-fluid .hero-content .hero-img img {
+  width: 100%;
+  height: 100%;
+}
+.hero_section .container-fluid .hero-contact .contact {
+  padding: 40px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.hero_section .container-fluid .hero-contact .contact .name {
+  display: flex;
+  flex-direction: column;
+}
+.hero_section .container-fluid .hero-contact .contact .name .text {
+  height: 48px;
+  width: 296px;
+}
+.hero_section .container-fluid .hero-contact .contact .number {
+  display: flex;
+  flex-direction: column;
+}
+.hero_section .container-fluid .hero-contact .contact .number .tele {
+  height: 48px;
+  width: 296px;
+}
+.hero_section .container-fluid .hero-contact .contact .com {
+  display: flex;
+  flex-direction: column;
+}
+.hero_section .container-fluid .hero-contact .contact .com .text {
+  height: 48px;
+  width: 296px;
+}
+.hero_section .container-fluid .hero-contact .contact .contact-btn {
+  display: contents;
+}
+.hero_section .container-fluid .hero-contact .contact .contact-btn .btn-three {
+  transition: all 0.4s ease;
+  background-color: black;
+  color: white;
+}
+.hero_section .container-fluid .hero-contact .contact .contact-btn .btn-three:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.services_section .container-fluid {
+  padding: 0;
+}
+.services_section .container-fluid .heading {
+  text-align: center;
+  padding: 112px 64px 50px;
+}
+.services_section .container-fluid .contents {
+  text-align: center;
+}
+.services_section .container-fluid .contents .top-cards {
+  display: flex;
+  margin: 0px 0px 100px;
+  justify-content: space-evenly;
+}
+.services_section .container-fluid .contents .top-cards .card-details {
+  margin: 30px;
+}
+.services_section .container-fluid .contents .top-cards .card-details h5 {
+  margin-bottom: 20px;
+}
+.services_section .container-fluid .contents .bottom-cards {
+  display: flex;
+  padding-bottom: 100px;
+  justify-content: space-evenly;
+}
+.services_section .container-fluid .contents .bottom-cards .card-info {
+  margin: 30px;
+}
+.services_section .container-fluid .contents .bottom-cards .card-info h5 {
+  margin-bottom: 20px;
+}
+
+.about_section .container-fluid {
+  padding: 100px;
+}
+.about_section .container-fluid .main-container {
+  display: flex;
+  gap: 100px;
+}
+.about_section .container-fluid .main-container .about-details {
+  width: 50%;
+  margin: 200px 0px;
+}
+.about_section .container-fluid .main-container .about-details-txt h6 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.about_section .container-fluid .main-container .about-details-txt p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.about_section .container-fluid .main-container .about-details-btn .btn-four {
+  height: 48px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.about_section .container-fluid .main-container .about-details-btn .btn-four:hover {
+  background-color: white;
+  color: black;
+}
+.about_section .container-fluid .about-img {
+  width: 50%;
+  margin-left: 100px;
+}
+.about_section .container-fluid .about-img img {
+  width: 100%;
+}
+
+.team_section .container-fluid {
+  padding: 100px;
+}
+.team_section .container-fluid .team-headings {
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.team_section .container-fluid .team-cards .top-card {
+  display: flex;
+  gap: 48px;
+  margin-bottom: 75px;
+}
+.team_section .container-fluid .team-cards .top-card .card-1 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.team_section .container-fluid .team-cards .top-card .card-1 .card-1-details {
+  padding-left: 32px;
+  max-width: 390px;
+}
+.team_section .container-fluid .team-cards .top-card .card-1 .card-1-details h5 {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .top-card .card-1 .card-1-details p {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .top-card .card-1 .card-1-details .team-icons {
+  letter-spacing: 20px;
+}
+.team_section .container-fluid .team-cards .top-card .card-2 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.team_section .container-fluid .team-cards .top-card .card-2 .card-2-details {
+  padding-left: 32px;
+  max-width: 390px;
+}
+.team_section .container-fluid .team-cards .top-card .card-2 .card-2-details h5 {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .top-card .card-2 .card-2-details p {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .top-card .card-2 .card-2-details .team-icons {
+  letter-spacing: 20px;
+}
+.team_section .container-fluid .team-cards .bottom-cards {
+  display: flex;
+  gap: 48px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-3 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-3 .card-3-details {
+  padding-left: 32px;
+  max-width: 390px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-3 .card-3-details h5 {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-3 .card-3-details p {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-3 .card-3-details .team-icons {
+  letter-spacing: 20px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-4 {
+  display: flex;
+  width: 50%;
+  align-items: center;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-4 .card-4-details {
+  padding-left: 32px;
+  max-width: 390px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-4 .card-4-details h5 {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-4 .card-4-details p {
+  margin-bottom: 25px;
+}
+.team_section .container-fluid .team-cards .bottom-cards .card-4 .card-4-details .team-icons {
+  letter-spacing: 20px;
+}
+
+.contact_section .container-fluid {
+  display: flex;
+  padding: 100px;
+  gap: 80px;
+}
+.contact_section .contact-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_section .contact-info .cont-headings {
+  margin-bottom: 32px;
+}
+.contact_section .contact-info .cont-headings h6 {
+  margin-bottom: 16px;
+}
+.contact_section .contact-info .cont-headings .h2 {
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+.contact_section .contact-info .cont-headings .p {
+  margin-bottom: 32px;
+}
+.contact_section .contact-info .contact-details .row {
+  display: flex;
+  flex-direction: column;
+}
+.contact_section .contact-info .contact-details .row .row-1 {
+  display: flex;
+  gap: 35px;
+}
+.contact_section .contact-info .contact-details .row .row-1 .col-md-2 {
+  width: 300px;
+}
+.contact_section .contact-info .contact-details .row .row-2 {
+  display: flex;
+  gap: 35px;
+}
+.contact_section .contact-info .contact-details .row .row-2 .col-md-2 {
+  width: 300px;
+}
+.contact_section .contact-info .contact-details .row .row-3 .col-md-4 {
+  width: 635px;
+}
+.contact_section .contact-info .contact-details .row .row-3 .col-md-4 .form-control {
+  min-height: 149px;
+}
+.contact_section .contact-info .contact-details .row .row-4 .col-12 {
+  padding: 24px 0px;
+}
+.contact_section .contact-info .contact-details .row .row-4 .col-12:last-child {
+  padding: 0;
+}
+.contact_section .contact-info .contact-details .row .row-4 .col-12:last-child .btn {
+  width: 99px;
+  height: 48px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.contact_section .contact-info .contact-details .row .row-4 .col-12:last-child .btn:hover {
+  background-color: white;
+  color: black;
+}
+.contact_section .contact-img {
+  width: 100%;
+}
+.contact_section .contact-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.help_section .container-fluid {
+  padding: 122px 98px;
+}
+.help_section .container-fluid .help-contents {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  height: 222px;
+}
+.help_section .container-fluid .help-contents .help-txts {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 72px;
+}
+.help_section .container-fluid .help-contents .help-txts h2 {
+  font-weight: bold;
+}
+.help_section .container-fluid .help-contents .help-txts span {
+  text-decoration: underline;
+}
+.help_section .container-fluid .help-contents .help-btn {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  padding-right: 72px;
+}
+.help_section .container-fluid .help-contents .help-btn .d-flex .help-button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 174px;
+  height: 50px;
+}
+.help_section .container-fluid .help-contents .help-btn .d-flex .help-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.subscribe_section .container-fluid {
+  padding: 122px 72px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}
+.subscribe_section .container-fluid .sub_content {
+  height: 258px;
+  width: 768px;
+}
+.subscribe_section .container-fluid .sub_content .sub_texts {
+  padding-bottom: 24px;
+}
+.subscribe_section .container-fluid .sub_content .sub_texts h2 {
+  font-weight: bold;
+  font-size: 50px;
+}
+.subscribe_section .container-fluid .sub_content .quick_bar .g-3 {
+  display: flex;
+  justify-content: center;
+}
+.subscribe_section .container-fluid .sub_content .quick_bar .g-3 .col-auto .form-control {
+  width: 394px;
+  height: 48px;
+}
+.subscribe_section .container-fluid .sub_content .quick_bar .g-3 .col-auto .mb-3 {
+  height: 48px;
+  width: 103px;
+  background-color: black;
+  transition: all 0.4s ease;
+}
+.subscribe_section .container-fluid .sub_content .quick_bar .g-3 .col-auto .mb-3:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
+.subscribe_section .container-fluid .sub_content .quick_bar .sub_bottom_txts p {
+  padding-bottom: 0;
+}
+
+.footer_section .container-fluid {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 80px 64px 0px;
+}
+.footer_section .container-fluid .right_section {
+  display: flex;
+  gap: 128px;
+  padding: 10px;
+}
+.footer_section .container-fluid .right_section .top_heading {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 24px;
+}
+.footer_section .container-fluid .right_section .top_heading .right-content .right-holders .g-3 .col-auto .form-control {
+  width: 365px;
+  height: 48px;
+}
+.footer_section .container-fluid .right_section .top_heading .right-content .right-holders .g-3 .col-auto .mb-3 {
+  width: 119px;
+  height: 48px;
+  background-color: black;
+  color: white;
+}
+.footer_section .container-fluid .right_section .top_heading .right-content .right-holders .g-3 .col-auto .mb-3:hover {
+  background-color: white;
+  color: black;
+}
+.footer_section .container-fluid .right_section .middle_section {
+  display: flex;
+  justify-content: space-evenly;
+  width: 65%;
+  gap: 30px;
+}
+.footer_section .container-fluid .right_section .middle_section .about {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+.footer_section .container-fluid .right_section .middle_section .about-services {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+}
+.footer_section .container-fluid .right_section .middle_section .follow-us {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.footer_section .container-fluid .right_section .middle_section .follow-us .follow-us-headings {
+  margin-bottom: 20px;
+}
+.footer_section .container-fluid .right_section .middle_section .follow-us .icon {
+  display: flex;
+  gap: 12px;
+}
+.footer_section .container-fluid .right_section .middle_section .follow-us .icon .icon-logo {
+  width: 20px;
+  text-align: center;
+}
+.footer_section .container-fluid .left_section .container-fluid {
+  padding: 80px;
+}
+.footer_section .container-fluid .left_section .container-fluid .left_content {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_section .container-fluid .left_section .container-fluid .left_content .left_one {
+  width: 70%;
+  margin: 20px 0px 0px;
+  padding: 20px 0px 0px;
+}
+.footer_section .container-fluid .left_section .container-fluid .left_content .left_two {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px 0px;
+  padding: 20px 0px 0px;
+}/*# sourceMappingURL=style.css.map */
